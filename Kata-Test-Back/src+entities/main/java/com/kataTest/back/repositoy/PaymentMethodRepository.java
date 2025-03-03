@@ -1,0 +1,7 @@
+package com.kataTest.back.repositoy;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PaymentMethodRepository extends JpaRepository<PaymentMethod, Long> {
+}
+
